@@ -1,7 +1,9 @@
 #include "Array.h"
 #include <cstdlib>
 #include<iostream>
+
 using namespace std;
+
 Array::Array(int size)
 {
 	//사이즈를 확인하고 양수이면 new를 사용하여 배열 data를 할당, len값 초기화
@@ -63,3 +65,4 @@ void Array::print() //배열의 모든 내용을 출력해주는 함수
 	cout << "]";
 	cout << endl;
 }
+//two
