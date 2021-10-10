@@ -1,6 +1,7 @@
 #include <iostream>
-using namespace std;
 #include "RangeArray.h"
+
+using namespace std;
 
 RangeArray::RangeArray(int i,int j):Array(j-i+1)
 {
@@ -29,3 +30,4 @@ int RangeArray::operator [](int i) const
 {	
 	return Array::operator [](i-low);
 }
+//three
