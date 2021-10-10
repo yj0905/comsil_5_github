@@ -27,6 +27,6 @@ int main(void)
 	x = c[-1]; y = d[3];
 
 	cout<<"c[-1] = "<<x<<" d[3] = "<<y<<endl;
-
+	//one
 
 }
