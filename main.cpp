@@ -1,6 +1,7 @@
 #include "Array.h"
 #include "RangeArray.h"
 #include <iostream>
+
 using namespace std;
 
 int main(void)
@@ -14,7 +15,7 @@ int main(void)
 	cout<<"b(5) "; b.print();
 	cout<<"a[-1] "; a[-1] = 7;
 	x = a[0]; y = b[0];
-	cout<<"a[0] ="<<x<<endl<<"b[0] ="<<y<<endl;
+	cout<<"a[0] = "<<x<<endl<<"b[0] = "<<y<<endl;
 
 	RangeArray c(-1,3),d(3,7);
 
@@ -27,6 +28,5 @@ int main(void)
 	x = c[-1]; y = d[3];
 
 	cout<<"c[-1] = "<<x<<" d[3] = "<<y<<endl;
-
 
 }
